@@ -37,7 +37,7 @@ contract LLR_WBTC_LTV0_Test is ProtocolV3TestBase {
     proposal = new LLR_WBTC_LTV0();
   }
 
-  function test_borrowerCanTopUpAftwerLTV0() public {
+  function test_borrowerCanTopUpAfterLTV0() public {
     console.log("Starting test_borrowerCanTopUp");
     
     defaultTest(
